@@ -1,0 +1,81 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build cache
+_obj
+_testbin
+*.test
+*.test.exe
+TestCache
+/TestCache
+
+# Dependency management
+vendor/
+
+# Go modules cache (optional, as 'vendor' usually suffices)
+# pkg/mod/
+# pkg/sumdb/
+
+# IDE specific files
+.idea/
+.vscode/
+.goland/
+*.iml
+*.ipr
+*.iws
+*.project
+*.workspace
+*.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+
+# Coverage files
+*.out
+*.profraw
+*.profdata
+
+# Documentation files (if generated)
+docs/
+
+# Log files (if generated)
+logs/
+*.log
+
+# Personal configuration files (adjust as needed)
+# config.toml
+# .env
+
+# Ignore editor backups
+*.[Ee]macs.autosave.*
+*~
+\#*\#
+
+# Ignore vim swap files
+*.swp
+*.swo
+
+# Ignore git-crypt files if used (adjust as needed)
+.gitattributes
+
+# If you use delve debugger and want to ignore its history file
+.dlv_history
+
+# If you generate protobuf files and want to ignore generated go files
+# *.pb.go
+
+# If you use air hot-reload and want to ignore its temp build directory
+.air_tmp/
+
+# If you use reflex hot-reload and want to ignore its temp build directory
+.reflex_tmp/
